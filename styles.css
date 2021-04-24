@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background-color:saddlebrown;
+    background-color:darkred;
 }
 h3 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -8,9 +8,10 @@ h3 {
     transition: 1s;
 }
 h1 {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: rgba(202, 143, 71, 0.747);
+    font-family:cursive;
+    color:blanchedalmond;
     transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+    font-size: xx-large;
 }
 h2 {
     font-family:Georgia, 'Times New Roman', Times, serif;

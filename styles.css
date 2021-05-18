@@ -1,36 +1,158 @@
-h3 
-{
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color:#534C89;
-    transition: 1s;
-}
-h1:hover
-{
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color:#7767E3;
-    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
-    font-size: xx-large;
-}
-h2.intro
-{
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color:#8E8C8B;
-}
-.para 
-{
-    color: #323232;
+body {
+    background-color:#323232;
+    color: #C6A798;
+    transition: 4s;
+    text-align: center;
+    padding-top: 3em;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.skillset 
-{
-    align-content: center;
-    color: #8E8C8B;
+
+.name {
+    font-size: 60px;
+    color: #C6A798;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    margin: 5%;
+    transition: 2s;
 }
-body 
-{
-    color: #323232;
+.name:hover {
+    font-size: 100px;
+    color:#534C89;
 }
-q 
-{
-    align-content: center;
+
+.intro {
+    font-size: 30px;
+    color: #358873;
+    transition: 1s;
+    font-style: italic;
+    padding: auto;
+    margin: 5%;
+}
+
+.intro:hover {
+    color: #6B64A2;
+}
+
+.liner {
+    font-style: normal;
+    color: #C6A798;
+    transition: 1s;
+    padding: auto;
+    margin: 5%;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.liner:hover {
+    color: #6B64A2;
+}
+
+.image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    transition: 3s;
+    margin: 10%;    
+}
+
+.about {
+    color:#358873;
+    font-size: 40px;
+    padding: auto;
+    transition: 2s;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.about:hover {
+    font-size: 50px;
+}
+
+.bio {
+    border: 4px #534C89 ;
+    text-align: left;
+    margin: 10%;
+    border-radius: 10%;
+    transition: 2s;
+    box-shadow: 2px;
+    color: #6B64A2;
+    font-style: italic;
+    font-weight:400;
+}
+
+.bio:hover {
+    color:#C6A798;
+}
+
+.skilll {
+    color:#358873;
+    font-size: 40px;
+    padding: auto;
+    transition: 2s;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.skilll:hover {
+    font-size: 50px;
+}
+
+.skillset {
+    display: flex;
+    font-size: 25px;
+    color: #C6A798;
+    flex-wrap:wrap;
+    transition: 3px;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.skillset:hover {
+    color: #6B64A2;
+}
+
+.links {
+    display: -ms-flexbox;
+    justify-content: stretch;
+}
+
+.contact {
+    color:#358873;
+    font-size: 40px;
+    padding: auto;
+    transition: 2s;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.contact:hover {
+    font-size: 50px;
+}
+
+.form {
+    width: 100%;
+    padding: 12%;
+    border-radius: 4px;
+    border: 1px #358873;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #323232;
+    color: #534C89;
+    padding: 20px;
+    align-items: center;
+}
+
+.submit {
+    background-color: #534C89;
+    color: #C6A798;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #C6A798;
+    color: #6B64A2;
 }

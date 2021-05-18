@@ -186,3 +186,36 @@ body {
     background-color: #C6A798;
     color: #6B64A2;
 }
+
+/* targets the typing text */
+.typing{
+    color: var(--purple);
+    margin-left: 10px;
+    /* position: relative; */
+   
+    
+
+}
+
+/* create typing pipe */
+.typing::after{
+    content: "";
+    /* position: absolute;   */
+    width: 1px; 
+    right: -4px; 
+    height: 50%;
+    border-right: 2px solid var(--purple);
+    animation: blink 0.5s infinite ease;
+    /* z-index: -1; */
+}
+
+
+
+@keyframes blink{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

@@ -34,6 +34,19 @@ body {
     color: #534C89;
   }
   
+.aklogo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transition: 2s;  
+    padding: 5px;
+}
+
+.aklogo:hover {
+    box-shadow: 0 0 2px 1px rgb(0, 53, 136, 115));
+}
+}
+}
 
 .name {
     font-size: 60px;
@@ -192,9 +205,6 @@ body {
     color: var(--purple);
     margin-left: 10px;
     /* position: relative; */
-   
-    
-
 }
 
 /* create typing pipe */
@@ -208,8 +218,6 @@ body {
     animation: blink 0.5s infinite ease;
     /* z-index: -1; */
 }
-
-
 
 @keyframes blink{
     0%{

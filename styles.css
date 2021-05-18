@@ -153,6 +153,30 @@ body {
     color: #6B64A2;
 }
 
+#projects {
+    color:#358873;
+    font-size: 40px;
+    padding: auto;
+    transition: 2s;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#projects:hover {
+    font-size: 50px;
+}
+
+.deets {
+    align-items: center;
+    color: #6B64A2;
+    padding: auto;
+    font-size: xx-large;
+    transition: 2s;
+}
+
+.deets:hover {
+    color: #C6A798;
+}
 .links {
     display: -ms-flexbox;
     justify-content: stretch;

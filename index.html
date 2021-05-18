@@ -5,32 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="logo.ico" sizes="32x32" type="image/png">
-    <link rel="stylesheet" href="styl.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="styling.css">
     <title>Aqsa Kazi</title>
 </head>
 <body>
 
     <header>
         <h1 class="name">Hey, I'm Aqsa.</h1>
-        <h2 class="intro">I'm a calligrapher / programmer</h2>
-    </header>
+        <div class="intro">
+            <h3>I am a Calligrapher & Programmer</h3>
+          </div>
 
     <!--One liner-->
-    <div>
-        <h3 class="liner">forager of meaning, inquisitive by habit & engineer by learning</h3>
+    <h3 class="liner">
+        forager of meaning, inquisitive by habit & engineer by learning
+    </h3>
+    </header>
+    <br>
+    <div class="about">ABOUT ME</div>
+     <!--self image with some css transition-->
+     <div>
+        <img src="image/self.jpg" class="image" style="float:right">
     </div>
-    <div class="hero__button__div">
-        <a href="#contact" class="contact_button">Contact me!</a>
-        <a href="#about" class="more__about__button">More About Me!</a>
-    </div>
-
     <!--ABOUT SECTION-->
-    <div class="about__headings">
-        <h3>About</h3>
-        <h1>Personal Info</h1>
-        <p>Get to know more about me</p>
-    </div>
     <div class="bio">
        <h4>Hello!</h4>
        <p>Extremely driven to develop my skills and grow professionally.</p>
@@ -39,40 +36,51 @@
        <p>I am a well-organised person, effective communicator who pays attention to every detail.</p>
        <p>I believe, <q>Persistent questioning and healthy inquisitiveness are the first requisite for acquiring learning of any kind.</q></p>
     </div>
-    <h4>My Skills</h4>
+    <br>
+    <div class="skilll">MY SKILLS</div>
+    <br>
     <div class="skillset">
        <div>HTML</div>
        <div>CSS</div>
-       <div>C Language</div>
        <div>C++</div>
+       <div>C Language</div>
        <div>Python</div>
        <div>Javascript</div>
        <div>Git</div>
        <div>UI/UX</div>
     </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!--CONTACT DETAILS-->
+    <div class="contact">CONTACT ME</div>
+    <br>
     <!--Link to socials-->
     <div class="links">
         <span>
 
                 <a href="https://github.com/aqsakazi" target="_blank">
-                <img src="images/github.png" width="40" height="40">
+                <img src="images/github.png" width="50" height="50">
                 </a>
         </span>
+        <span>
+            <a href="https://open.spotify.com/user/l9d8j7jm61youphsryvmjunk4?si=61b8c44171bb4e75" target="_blank">
+                <img src="images/spotify.png" width="50" height="50">
+            </a>
+        </span>    
         <span>
                 <a href="https://www.linkedin.com/in/aqsa-kazi-a760271b4/" target="_blank">
-                    <img src="images/linkedin.png" width="40" height="40">
+                    <img src="images/linkedin.png" width="50" height="50">
                 </a>
         </span>
-        <span>
-                <a href="https://open.spotify.com/user/l9d8j7jm61youphsryvmjunk4?si=61b8c44171bb4e75" target="_blank">
-                    <img src="images/spotify.png" width="40" height="40">
-                </a>
-        </span>    
     </div>
-    <
+    <br>
+    <!--FORM ADDED-->
     <section>
         <div>
-            <form>
+            <form class="form">
                 <br>
                 <div>
                     <input type="text" placeholder="Name">
@@ -86,7 +94,7 @@
                     <input type="email" placeholder="Email ID">
                 </div>
                 <br>
-                <input type="submit">
+                <input type="submit" class="submit">
             </form>
         </div>
     </section>

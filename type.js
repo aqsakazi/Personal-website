@@ -1,6 +1,6 @@
 //Display typing text
 
-const texts = ["Programmer", "Calligrapher", "Learner"];
+const texts = ["A Programmer", "A Calligrapher", "A Learner"];
 let count = 0;
 let index = 0;
 let currentText = '';

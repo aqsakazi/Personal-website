@@ -195,6 +195,23 @@ body {
     font-size: 50px;
 }
 
+.email {
+    float: centre;
+    color: #6B64A2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 2s;
+    justify-content: space-evenly;
+    flex: 1;
+}
+
+.email:hover {
+    background-color: #C6A798;
+    color: #534C89;
+  }
+
 .form {
     width: 100%;
     padding: 12%;

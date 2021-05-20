@@ -170,8 +170,10 @@ body {
     align-items: center;
     color: #6B64A2;
     padding: auto;
-    font-size: xx-large;
+    font-size: 20px;
     transition: 2s;
+    font-style: italic;
+    font-weight:400;
 }
 
 .deets:hover {
@@ -201,11 +203,13 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
     transition: 2s;
     justify-content: space-evenly;
     flex: 1;
     border: 2px solid #C6A798;
+    font-style: italic;
+    font-weight:400;
 }
 
 .email:hover {
@@ -213,32 +217,6 @@ body {
     color: #534C89;
   }
 
-.form {
-    width: 100%;
-    padding: 12%;
-    border-radius: 4px;
-    border: 1px #358873;
-    box-sizing: border-box;
-    border-radius: 5px;
-    background-color: #323232;
-    color: #534C89;
-    padding: 20px;
-    align-items: center;
-}
-
-.submit {
-    background-color: #534C89;
-    color: #C6A798;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.submit:hover {
-    background-color: #C6A798;
-    color: #6B64A2;
-}
 
 /* targets the typing text */
 .typing{

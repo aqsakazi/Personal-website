@@ -205,6 +205,7 @@ body {
     transition: 2s;
     justify-content: space-evenly;
     flex: 1;
+    border: 2px solid #C6A798;
 }
 
 .email:hover {

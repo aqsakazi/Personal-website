@@ -140,12 +140,9 @@ body {
 }
 
 .skillset {
-    display: flex;
     font-size: 25px;
     color: #C6A798;
-    flex-wrap:wrap;
     transition: 3px;
-    justify-content: space-around;
     margin: auto;
 }
 

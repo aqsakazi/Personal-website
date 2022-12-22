@@ -68,6 +68,8 @@
                 <img src="programmer.png"/>
             </div>
         </div> 
+
+
         <!--EDUCATION-->
         <div class="education">
             <h2 class="headings">
@@ -146,10 +148,12 @@
     <script>
         const body = document.querySelector('body');
         const toggle = document.getElementById('toggle');
+        const nav = document.querySelector('nav');
         toggle.onclick = function() {
             toggle.classList.toggle('active')
             body.classList.toggle('active')
             bio.classList.toggle('active')
+            nav.classList.toggle('active')
         }
     </script>
 </body>

@@ -1,6 +1,6 @@
 //Display typing text
 
-const texts = ["I am forager of meaning, inquisitive by habit and engineer by learning."];
+const texts = ["this is a work in progress"];
 let count = 0;
 let index = 0;
 let currentText = '';

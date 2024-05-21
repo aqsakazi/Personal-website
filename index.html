@@ -2,37 +2,85 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <title>Aqsa Kazi</title>
+    <title>Aqsa Kazi - Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #fff;
+        }
+        header {
+            text-align: center;
+            padding: 50px 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            font-size: 1.2em;
+            color: #777;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        h2 {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+        }
+        .contact {
+            text-align: center;
+        }
+        .contact a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-        <!--content----------------->
-   <div class="content">
-        <!--TEXT-->
-        <div class="main-text">
-            <h2>Hello, I am Aqsa.</h2>
-            <p class="typing">|</p>
-            <br />
-            <!--HI BUTTON-->
-            <a href="mailto:aqsazim786@gmail.com? subject=Via Personal Website" target="_blank" title="Email me" alt="email" class="say-hi-btn">get in touch</a> 
-        </div>
-    </div>
-    
-    <!--JAVASCRIPT LINKS-->
-    <script src="type.js"></script>
-    <script>
-        const body = document.querySelector('body');
-        const toggle = document.getElementById('toggle');
-        const nav = document.querySelector('nav');
-        toggle.onclick = function() {
-            toggle.classList.toggle('active')
-            body.classList.toggle('active')
-            bio.classList.toggle('active')
-            nav.classList.toggle('active')
-        }
-    </script>
+
+    <header>
+        <h1>Aqsa Kazi</h1>
+        <p>Forager of meaning, inquisitive by habit & engineer by learning</p>
+    </header>
+
+    <section id="about-me">
+        <h2>About Me</h2>
+        <p>Hello! I'm Aqsa Kazi, a dedicated engineer with a passion for exploring the deeper meanings in life. My curiosity drives me to constantly learn and grow, both personally and professionally.</p>
+    </section>
+
+    <section id="work-experience">
+        <h2>Work Experience</h2>
+        <p>Details about your work experience would go here. You can list your past jobs, roles, responsibilities, and achievements.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Details about your projects would go here. You can describe the projects you have worked on, your role in them, and any notable outcomes or technologies used.</p>
+    </section>
+
+    <section id="research-publications">
+        <h2>Research Publications</h2>
+        <p>Details about your research publications would go here. You can list the titles, journals, and any co-authors.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <p>Details about your skills would go here. You can list your technical skills, soft skills, and any other relevant abilities.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p class="contact">Feel free to reach out to me via email at <a href="mailto:aqsa.kazi@example.com">aqsa.kazi@example.com</a>.</p>
+    </section>
+
 </body>
 </html>

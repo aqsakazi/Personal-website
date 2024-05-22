@@ -13,42 +13,63 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-    padding: 20px;
-    width: 300px;
+    padding: 40px;
+    width: 400px; /* Increased width */
 }
 
 .profile-pic {
-    width: 100px;
-    height: 100px;
+    width: 120px; /* Increased size */
+    height: 120px; /* Increased size */
     border-radius: 50%;
     object-fit: cover;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 h1 {
     margin: 0;
-    font-size: 24px;
+    font-size: 28px; /* Increased size */
     color: #333;
 }
 
 .title {
-    font-size: 16px;
+    font-size: 18px; /* Increased size */
     color: #777;
-    margin: 10px 0;
+    margin: 15px 0;
 }
 
 .subtitle {
-    font-size: 14px;
+    font-size: 16px; /* Increased size */
     color: #555;
-    margin: 10px 0 20px;
+    margin: 15px 0 30px;
 }
 
 .social-links a {
-    margin: 0 10px;
+    margin: 0 15px; /* Increased margin */
     text-decoration: none;
+    position: relative; /* Added for underline effect */
+    display: inline-block;
 }
 
 .social-links img {
-    width: 24px;
-    height: 24px;
+    width: 30px; /* Increased size */
+    height: 30px; /* Increased size */
+}
+
+/* Underline effect on hover */
+.social-links a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    display: block;
+    margin-top: 5px;
+    right: 0;
+    background: #333;
+    transition: width 0.4s ease;
+}
+
+.social-links a:hover::after {
+    width: 100%;
+    left: 0;
+    background: #333; /* Underline color */
 }

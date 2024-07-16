@@ -43,16 +43,17 @@ h1 {
     margin: 15px 0 30px;
 }
 
-.social-links a {
-    margin: 0 15px; /* Increased margin */
-    text-decoration: none;
-    position: relative; /* Added for underline effect */
-    display: inline-block;
+.social-links {
+    display: flex;
+    justify-content: space-around;
 }
 
-.social-links img {
-    width: 30px; /* Increased size */
-    height: 30px; /* Increased size */
+.social-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    position: relative; 
+    display: inline-block;
+    color: #C8A2C8; 
 }
 
 /* Underline effect on hover */

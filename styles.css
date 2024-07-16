@@ -6,6 +6,10 @@ body {
     margin: 0;
     background-color: #f4f4f9;
     font-family: Arial, sans-serif;
+    font-family: "Syne", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
 .card {
